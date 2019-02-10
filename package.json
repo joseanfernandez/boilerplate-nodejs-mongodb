@@ -1,0 +1,23 @@
+{
+  "name": "scandgo-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Jose Antonio Fernández García",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "log-symbols": "^2.2.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.11",
+    "wreck": "^14.1.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "nodemon": "^1.18.10"
+  }
+}
