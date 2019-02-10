@@ -1,10 +1,7 @@
-const mongoose = require('mongoose');
-const Schema = mongoose.Schema;
-
 const itemSchema = new Schema({
-  name:  String,
+  name: String,
   sn: String,
-  owned: Boolean,
-});
+  owned: Boolean
+})
 
-module.exports = mongoose.model('Item', itemSchema);
+module.exports = mongoose.model('Item', itemSchema)
