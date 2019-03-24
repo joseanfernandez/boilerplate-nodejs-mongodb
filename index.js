@@ -3,7 +3,7 @@
 global = require('./global') // eslint-disable-line no-global-assign
 
 mongoose.connect(databaseUrl, { useNewUrlParser: true }, (err) => {
-  !err ? Log.success('Successfully connected to Scandgo database') : Log.error(err)
+  !err ? Log.success('Successfully connected to database') : Log.error(err)
 })
 
 const server = Hapi.server({
